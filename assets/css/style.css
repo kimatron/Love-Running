@@ -103,17 +103,24 @@ main {
     margin-top: 47px;
 }
 
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
 /* Footer */
 
 
 
 #social-networks {
     text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-        
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
 
 }
 
@@ -170,6 +177,3 @@ main {
         border-bottom: 1px solid
     }
 }
-
-
-
