@@ -3,30 +3,30 @@
 
 /* Asterix wildcard selector to override default styles added by the browser */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* Generic project styles */
-  color: #3a3a3a;
-  font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 }
 
 
 /* Header */
 header {
-  background-color: #ffffff;
-  padding: 0 1rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 
 }
 
@@ -37,7 +37,7 @@ header a {
 }
 
 #logo {
-  font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 #menu {
@@ -47,28 +47,44 @@ header a {
 
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-h1 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #252525;
+/* Navbar styles with a dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    
 
 }
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+
+}
+
 /* Main */
 main {
-  background-color: lightblue;
-  /* make main element take up surplus space to push footer down to bottom */
-  flex: 1 0 auto;
+    background-color: lightblue;
+    /* make main element take up surplus space to push footer down to bottom */
+    flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-  background-color: orange;
+    background-color: orange;
 }
