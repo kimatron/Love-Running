@@ -131,6 +131,25 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
+
+/* benefits and reasons section */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    /* makes a square image a circle */
+   border-radius: 50%;
+   max-width: 300px;
+   max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 
 footer {
